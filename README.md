@@ -17,10 +17,20 @@ npx skills add https://github.com/itboots/skills --list
 全局安装并跳过确认：
 
 ```bash
-npx skills add https://github.com/itboots/skills --skill pigdoc -g -y
+npx skills add https://github.com/itboots/skills --skill inspiredoc -g -y
 ```
 
 ## 可用技能
+
+### inspiredoc
+
+搜索 PIG 官方文档（PIG Cloud / pigx / PIG AI）并按文档总结答案。
+
+```bash
+npx skills add https://github.com/itboots/skills --skill inspiredoc
+```
+
+触发示例：`多数据源怎么配置`、`知识库接入 Neo4j`、`pigx 网关路由 404`、`/inspiredoc`。
 
 ### pigdoc
 
